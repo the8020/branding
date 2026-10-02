@@ -132,9 +132,15 @@ Own the shared 80|20 brand assets independently of `the8020/kernel`.
 
 ## Work Guidance
 
-- Reuse the shared editable brand source before adding another asset or
-  variant, and keep effort proportional to its use. Package brand assets here
-  so application and kernel repositories consume them without becoming
-  competing source owners.
+- Build only what the request and established contracts require. Before adding a
+  mechanism, identify that need and why existing owners or standard tools cannot
+  meet it. Do not invent stronger guarantees for hypothetical cases. Remove
+  unsupported additions at closeout; agent-written tests and DOX do not
+  authorize them. Preserve required correctness, security, and data integrity.
+
+- Reuse the shared editable brand source before adding another asset or variant,
+  and keep effort proportional to its use. Package brand assets here so
+  application and kernel repositories consume them without becoming competing
+  source owners.
 
 ## Verification
