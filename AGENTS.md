@@ -121,6 +121,9 @@ Own the shared 80|20 brand assets independently of `the8020/kernel`.
 
 - `logo.afdesign` is the editable Affinity Designer source.
 - `logo-dark-square-256.jpg` is the square JPEG export for dark backgrounds.
+- `favicon/generate.py` is the source of the browser icon set in `favicon/`;
+  its digits are geometric strokes, so no font is embedded. Edit the script and
+  regenerate instead of editing the exports.
 - `README.md` describes the available assets.
 
 ## Local Contracts
